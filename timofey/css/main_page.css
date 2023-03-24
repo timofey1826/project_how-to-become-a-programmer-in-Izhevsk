@@ -1,0 +1,23 @@
+.body{
+    display: flex;
+    align-items:stretch;
+    justify-content:space-around;
+    width: 100%;
+    height: 100%;
+    background: #985ACE;
+  }
+/* .main_window{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}   */
+.main_color{
+    background: #ffffff;
+    width: 1800px;
+    height: 850px;
+    border-radius: 37.5px;
+    margin-top: 5%;
+}
