@@ -1,23 +1,38 @@
 .body{
     display: flex;
-    align-items:stretch;
-    justify-content:space-around;
+    justify-content:center;
     width: 100%;
     height: 100%;
     background: #985ACE;
   }
-/* .main_window{
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-}   */
 .main_color{
-    background: #ffffff;
+    background: #cfcdcd;
     width: 1800px;
     height: 850px;
     border-radius: 37.5px;
-    margin-top: 5%;
+    margin-top: 1%;
+}
+.logo{
+    position: absolute;
+    width:60px;
+    height: 70px;
+    background-image: url("../images/лого 6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:25px;
+}
+.logo_fon{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    width:120px;
+    height: 120px;
+    border-radius: 15px;
+    border: 1px solid #985ACE;
+}
+.info{
+    
 }
