@@ -12,7 +12,7 @@
     padding: 10px;
     width: 30%;
     min-width: 450px;
-    min-height: 600px;
+    min-height: 575px;
     height: 70%;
     
     background: #FFFFFF;
@@ -60,7 +60,20 @@
 
 .registrate:hover
 {
-    background: #714399;
+    background: #7a49a5;
+}
+
+.registrate:active
+{
+    background: #613a83;
+}
+
+/*<img src="google.png" alt="Google" width="20" height="20">*/
+
+.logo
+{
+    position: absolute;
+    right: 70%;
 }
 
 .google
@@ -70,13 +83,14 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     width: 70%;
     height: 45px;
     background: #FFFFFF;
     color:#000;
     border-radius: 7px;
     border: 1px solid #985ACE;
+    transition-duration: 0.3s;
 
     font-family: 'Arial';
     font-style: italic;
@@ -86,9 +100,22 @@
     text-align: center;
 }
 
+.google:hover
+{
+    background: #efefef;
+    border-color: #7a49a5;
+}
+
+.google:active
+{
+    background: #dddddd;
+    border-color: #613a83;
+}
+
 .header
 {
     align-self: flex-start;
+    margin-top: 50px;
     margin-left: 15%;
     margin-bottom: 50px;
     font-family: 'Arial';

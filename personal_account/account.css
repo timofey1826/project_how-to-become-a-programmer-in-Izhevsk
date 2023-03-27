@@ -1,0 +1,58 @@
+.mainDiv 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    min-width: 450px;
+    min-height: 500px;
+    height: 60%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.17);
+    border-radius: 118px;
+}
+
+.menu
+{
+    margin-left: 10%;
+
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 41px;
+}
+
+.textfield
+{
+    margin-left: 10%;
+    width: 70%;
+    height: 25px;
+    margin-bottom: 30px;
+
+    background: #FFFFFF;
+    border: 3px solid #985ACE;
+    border-radius: 69px;
+}
+
+.header
+{
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    margin-top: 2%;
+
+    font-family: 'Arial';
+    font-style: italic;
+    font-size: 50px;
+    color: #000000;
+}
+
+body
+{
+    background-color: #985ACE; 
+} 
