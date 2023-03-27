@@ -13,7 +13,7 @@
     
     background: #FFFFFF;
     box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.17);
-    border-radius: 118px;
+    border-radius: 80px;
 }
 
 .menu
@@ -33,6 +33,7 @@
     width: 70%;
     height: 25px;
     margin-bottom: 30px;
+    padding-left: 10px;
 
     background: #FFFFFF;
     border: 3px solid #985ACE;
