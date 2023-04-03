@@ -7,8 +7,8 @@
   }
 .main_color{
     background: #ffffff;
-    width: 1100px;
-    height: 1200px;
+    width: 1100;
+    height: 1400px;
     border-radius: 37.5px;
     margin-top: 1%;
 }
@@ -17,8 +17,8 @@
     justify-content:space-between;
     flex-direction: column;
     width: 1100px;
-    height: 950px;
-    margin-top: 100px;
+    height: 1050px;
+    margin-top: 75px;
 }
 /*---------------------------------------------------------------------------------------------------------------------------*\
 \*---------------------------------------------------------------------------------------------------------------------------*/
@@ -34,19 +34,18 @@
 .vopros{
     width:fit-content;
     height:fit-content;
-    margin-left: 5%;
+    margin-left: 25%;
     font-family: serif;
     font-size: 27px;
 }
 .otvet_pole_vvoda{
-    margin-left: 5%;
+    margin-left: 25%;
     background: #e6e6e6;
     width: 500px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid #985ACE;
     font-family: serif;
-    font-style: italic;
     font-size: 25px;
     text-indent: 30px;
 }

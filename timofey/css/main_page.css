@@ -6,7 +6,6 @@
     background: #985ACE;
   }
 .main_color{
-    background: #e6e6e6;
     width: 1800px;
     height: 850px;
     border-radius: 37.5px;
@@ -118,8 +117,8 @@
 \*---------------------------------------------------------------------------------------------------------------------------*/
 .info_info{
     width: 800px;
-    height:200px;
-    margin-top:5%;
+    height:fit-content;
+    margin-top:3.5%;
     margin-left: 5%;
     text-align: left;
     vertical-align: middle;
@@ -127,4 +126,87 @@
     font-size: 30px;
     font-style: italic;
     text-indent: 30px;
+}
+.info_banner{
+    width: 780px;
+    height: 420px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 18px;
+    border: 1px solid #985ACE;
+    background: #e6e6e6;
+    position:absolute;
+    transition: 0.5s;
+}
+.info_banner:hover{
+    transform: scale(1.05);
+    border: 1px solid #000000;
+}
+.anketa{
+    width: 780px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 35px;
+    border-radius: 18px;
+    border: 1px solid #03b61e;
+    background: #e6e6e6;
+    position:absolute;
+    transition: 0.5s;
+    font-family: serif;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 1%;
+}
+.anketa:hover{
+    transform: scale(1.05);
+    font-size: 45px;
+    padding-top: 0.8%;
+}
+.perehod{
+    width: 780px;
+    height: 60px;
+    margin-top: 555px;
+    margin-left: 35px;
+    border-radius: 18px;
+    border: 1px solid #03b61e;
+    background: #e6e6e6;
+    position:absolute;
+    transition: 0.5s;
+    font-family: serif;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 1%;
+}
+.perehod:hover{
+    transform: scale(1.05);
+    font-size: 45px;
+    padding-top: 0.8%;
+}
+.horizontal_line_1{
+    width: 800px;
+    height: 1px;
+    margin-top: 120px;
+    margin-left: 25px;
+    background: #000000;
+    position:absolute;
+}
+.horizontal_line_2{
+    width: 800px;
+    height: 1px;
+    margin-top: 530px;
+    margin-left: 25px;
+    background: #000000;
+    position:absolute;
+}
+.timetable{
+    position:absolute;
+    width:fit-content;
+    height:fit-content;
+    margin-top:140px;
+    margin-left: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: MailSans,Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 35px;
 }
