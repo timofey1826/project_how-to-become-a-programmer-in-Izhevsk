@@ -20,6 +20,8 @@
     height: 950px;
     margin-top: 150px;
 }
+/*---------------------------------------------------------------------------------------------------------------------------*\
+\*---------------------------------------------------------------------------------------------------------------------------*/
 .page_name{
     width:fit-content;
     height:fit-content;
@@ -32,10 +34,17 @@
 .vopros{
     width:fit-content;
     height:fit-content;
-    margin-left: 40.8%;
+    margin-left: 5%;
     font-family: serif;
     font-size: 27px;
 }
-.otvet_1{
-
+.otvet_pole_vvoda{
+    margin-left: 5%;
+    background: #ffffff;
+    width: 700px;
+    height: 100px;
+    border-radius: 22px;
+    border: 1px solid #985ACE;
+    font-family: sans-serif;
+    font-size: 27px;
 }
