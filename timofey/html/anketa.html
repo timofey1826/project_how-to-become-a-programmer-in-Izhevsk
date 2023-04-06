@@ -28,12 +28,18 @@
             <input type="text" name="languages_future" value="" class="otvet_pole_vvoda">
 
             <div class="vopros">Хотите ли вы получить высшее образование?</div>
-            <input type="text" name="higher education" value="" class="otvet_pole_vvoda">
+            <div class="flex_vvod">
+                <input style="margin-left: 20px" id="radio_1" name="education_yes" type="radio" value="1" />
+                <label class="vvod_da_net" style="margin-right: 50px" for="radio_1">Да</label >
+                <input id="radio_2" name="education_yes" type="radio" value="2" />
+                <label class="vvod_da_net" style="margin-right: 20px" for="radio_2">Нет</label>
+            </div>
+            
 
             <div class="vopros">В какой сфере ты хочешь работать?</div>
             <input type="text" name="work_scope" value="" class="otvet_pole_vvoda">
 
-            <div class="vopros">сколько времяни в день ты готов тратить на обучение?</div>
+            <div class="vopros">сколько времяни в день ты готов тратить на обучение?(в часах)</div>
             <input type="text" name="time" value="" class="otvet_pole_vvoda">
 
         </div>
