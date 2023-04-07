@@ -22,11 +22,34 @@
             <input type="text" name="age" value="" class="otvet_pole_vvoda">
 
             <div class="vopros">Какаие языки прогромирования ты уже знаешь?</div>
-            <input type="text" name="languages_now" value="" class="otvet_pole_vvoda">
+            <div class="prof_btn">
+                <div class="prof_btn_text">выбрать</div>
+                <div class="prof_select">
+                        <input name="python" type="checkbox" id="python1"/>
+                    <label for="python1">python</label >
+                        <!-- <input name="python" type="checkbox" id="python1"/>
+                    <label class="vvod_da_net" style="margin-right: 50px" for="python1">python</label >
+                        <input name="python" type="checkbox" id="python1"/>
+                    <label class="vvod_da_net" style="margin-right: 50px" for="python1">python</label >
+                        <input name="python" type="checkbox" id="python1"/>
+                    <label class="vvod_da_net" style="margin-right: 50px" for="python1">python</label > -->
+                </div>
+            </div>
 
             <div class="vopros">Какие языки прогромирования ты хотел бы узнать?</div>
-            <input type="text" name="languages_future" value="" class="otvet_pole_vvoda">
-
+            <div class="prof_btn">
+                <div class="prof_btn_text">выбрать</div>
+                <div class="prof_select">
+                        <input name="python" type="checkbox" id="python1"/>
+                    <label for="python1">python</label >
+                        <!-- <input name="python" type="checkbox" id="python1"/>
+                    <label class="vvod_da_net" style="margin-right: 50px" for="python1">python</label >
+                        <input name="python" type="checkbox" id="python1"/>
+                    <label class="vvod_da_net" style="margin-right: 50px" for="python1">python</label >
+                        <input name="python" type="checkbox" id="python1"/>
+                    <label class="vvod_da_net" style="margin-right: 50px" for="python1">python</label > -->
+                </div>
+            </div>
             <div class="vopros">Хотите ли вы получить высшее образование?</div>
             <div class="flex_vvod">
                 <input style="margin-left: 20px" id="radio_1" name="education_yes" type="radio" value="1" />
@@ -37,7 +60,12 @@
             
 
             <div class="vopros">В какой сфере ты хочешь работать?</div>
-            <input type="text" name="work_scope" value="" class="otvet_pole_vvoda">
+            <select class="work_scope" name="scopes" id="scopes-select">
+                <option value="development">разработка</option>
+                <option value="disign">дизайн</option>
+                <option value="data_analysis">анализ данных</option>
+                <option value="web">Web</option>
+            </select>
 
             <div class="vopros">сколько времяни в день ты готов тратить на обучение?(в часах)</div>
             <input type="text" name="time" value="" class="otvet_pole_vvoda">
