@@ -133,14 +133,13 @@
     margin-top: 20px;
     margin-left: 35px;
     border-radius: 18px;
-    border: 1px solid #985ACE;
+    border: 1px solid #03b61e;
     background: #e6e6e6;
     position:absolute;
     transition: 0.5s;
 }
 .info_banner:hover{
     transform: scale(1.05);
-    border: 1px solid #000000;
 }
 .anketa{
     width: 780px;

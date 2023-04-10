@@ -8,7 +8,7 @@
 .main_color{
     background: #ffffff;
     width: 1100;
-    height: 1400px;
+    height: 1550px;
     border-radius: 37.5px;
     margin-top: 1%;
 }
@@ -30,6 +30,27 @@
     font-family: sans-serif;
     font-size: 60px;
     border-bottom: 2px solid #000000;
+}
+.page_end{
+    width: 340px;
+    height: 60px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 15%;
+    background: #e6e6e6;
+    border-radius: 30px;
+    border: 1px solid #985ACE;
+    transition: 0.5s;
+}
+.page_end_text{
+    margin-left: 30%;
+    margin-top: 3.9%;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+.page_end:hover{
+    box-shadow: 0px 0px 32px 5px #a0a5ff;
+    border: 1px solid #a0a5ff;
 }
 .vopros{
     width:fit-content;
@@ -102,14 +123,18 @@ option {
 .prof_select{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    width: 300px;
+    box-shadow: 0px 0px 32px 5px #a0a5ff;
     z-index: 1;
 }
+.prof_select_text{
+    font-family: serif;
+    font-size: 25px;
+}
 
-.prof_btn:hover .prof_select {display: block;}
+.prof_btn:hover .prof_select {display: block; color: black;}
 
-.prof_btn:hover {background-color: #3e8e41;}
+.prof_btn:hover {background-color: #985ACE;color: white;}
 /*---------------------------------------------------------------------------------------------------------------------------*\
 \*---------------------------------------------------------------------------------------------------------------------------*/
