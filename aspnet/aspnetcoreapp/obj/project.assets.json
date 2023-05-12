@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\t.i.ishmatov\\Documents\\aspnet\\aspnetcoreapp\\aspnetcoreapp.csproj",
+      "projectUniqueName": "C:\\Users\\t.i.ishmatov\\Documents\\GitHub\\project_how-to-become-a-programmer-in-Izhevsk\\aspnet\\aspnetcoreapp\\aspnetcoreapp.csproj",
       "projectName": "aspnetcoreapp",
-      "projectPath": "C:\\Users\\t.i.ishmatov\\Documents\\aspnet\\aspnetcoreapp\\aspnetcoreapp.csproj",
+      "projectPath": "C:\\Users\\t.i.ishmatov\\Documents\\GitHub\\project_how-to-become-a-programmer-in-Izhevsk\\aspnet\\aspnetcoreapp\\aspnetcoreapp.csproj",
       "packagesPath": "C:\\Users\\t.i.ishmatov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\t.i.ishmatov\\Documents\\aspnet\\aspnetcoreapp\\obj\\",
+      "outputPath": "C:\\Users\\t.i.ishmatov\\Documents\\GitHub\\project_how-to-become-a-programmer-in-Izhevsk\\aspnet\\aspnetcoreapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
