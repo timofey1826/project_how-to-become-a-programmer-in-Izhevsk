@@ -53,6 +53,8 @@ public class User
         }
     }
 
+    public bool HaveCourse { get; set; }
+
     public string Email 
     {
         get { return _email; }
