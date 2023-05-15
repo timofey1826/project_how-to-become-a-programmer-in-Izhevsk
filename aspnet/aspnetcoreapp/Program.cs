@@ -1,8 +1,15 @@
+using aspnetcoreapp.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<ApiDbContext>(opt =>
+        opt.UseNpgsql(builder.Configuration.GetConnectionString("SampleDbConnection")));
+
+        
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,5 +1,5 @@
 public class Users{
-    private string _email;
+    private string _email = "";
     bool pochta = false;
     int sobakaIndex = -2, sobakaCount = 0;
     string[] pochtavr = {"gmail.com","mail.ru","yandex.ru","yahoo.com","outlook.com"};
