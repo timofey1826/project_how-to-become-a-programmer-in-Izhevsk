@@ -1,3 +1,5 @@
+namespace aspnetcoreapp.Models;
+
 public class Team : Users
 {
     public Team()
