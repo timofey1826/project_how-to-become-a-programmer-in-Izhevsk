@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/course_page.css">
-    <title>main_page</title>
+    <title>course_page</title>
 </head>
-<body class="window">
-    <div class="main_color">
+
+<body class="b">
+    <div class="window">
 
         <div class="header">
+            <div class="logotip"></div>
+            <div class="project_name">МотиваторIT</div>
         </div>
 
-        <div class="info">
-        </div>
-
-        <div class="course">    
-            <div class="perehod">Перейти к курсу =></div>
+        <div class="buttons">
+            <button id = "egeButton" class="show_button">Подготовка к ЕГЭ</button>
+            <button id = "uneversityButton" class="show_button">ВУЗы и факультеты</button>
+            <button id = "dopZanaytiayButton" class="show_button">Доп. курсы</button>
+            <button id = "workButton" class="show_button">Стажировка и Работа</button>
         </div>
         
-
     </div>
+
+    <div id ="darkness" class="podrobnostiDark"></div>
+    <div id = "podrobnostiView" class="podrobnosti"></div>
+
+    <script src="../js/course_page.js"></script>
+
 </body>
 </html>
