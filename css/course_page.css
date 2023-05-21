@@ -1,0 +1,87 @@
+.b{
+    background:#985ACE;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 400px;
+    height:auto;
+    margin-top:30px;
+    margin-left: 35px;
+}
+.window{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    background: #ffffff;
+    border-radius: 40px;
+    border: 1px solid #000000;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 80%;
+    height:auto;
+    margin-top: 7%;
+    margin-left: 9%;
+    
+}
+.show_button{
+    width: 320px;
+    height: 320px;
+    background: #9ddb52;
+    border-radius: 20px;
+    font-size: 40px;
+    border: 3px solid #000000;
+    transition: 0.5s;
+}
+.show_button:hover{
+    transform:scale(1.1);
+}
+.show_button:active {
+    background: #0a6300;
+}
+.podrobnosti{
+    position: absolute;
+    display: none;
+    width: 80%;
+    height: 75%;
+    background: #ffffff;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 40px;
+    border: 3px solid #000000;
+}
+.podrobnostiDark{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000030;
+}
+.logotip{
+    width:80px;
+    height: 90px;
+    background-image: url("../img/logotype.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+.logotip:hover{
+    transform: scale(1.3);
+}
+.project_name{
+    width:fit-content;
+    height:fit-content;
+    margin-top:5%;
+    font-style:italic;
+    font-family: serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 44px;
+}

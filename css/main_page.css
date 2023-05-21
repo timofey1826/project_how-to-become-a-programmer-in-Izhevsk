@@ -54,12 +54,12 @@
     background: #000000;
 }
 .logotip{
-    width:60px;
-    height: 70px;
-    background-image: url("../images/лого 6.png");
+    width:80px;
+    height: 100px;
+    background-image: url("../img/logotype.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top:15px;
+    margin-top:10px;
     margin-left: 20px;
     transition: 0.5s;
 }
@@ -69,7 +69,7 @@
 .profile{
     width:80px;
     height: 80px;
-    background-image: url("../images/prifile_image.png");
+    background-image: url("../img/prifile_image.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin-top:10px;
